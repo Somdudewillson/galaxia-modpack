@@ -1,0 +1,19 @@
+{
+	id: "a27d58a5-8eb9-49a5-a3ee-124a71d7f9c8"
+	type: "player"
+	player_name: "TheGamingPigeon"
+	ranks: {
+		a27d58a5-8eb9-49a5-a3ee-124a71d7f9c8: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "TheGamingPigeon"
+		"ftbteams:color": "#59FFBA"
+		"ftbchunks:block_edit_mode": "allies"
+		"ftbchunks:block_interact_mode": "allies"
+		"ftbteams:description": ""
+		"ftbteams:free_to_join": 0b
+		"ftbchunks:allow_fake_players": 1b
+	}
+	message_history: [ ]
+	extra: { }
+}

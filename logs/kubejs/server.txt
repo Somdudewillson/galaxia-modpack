@@ -1,0 +1,71 @@
+[20:10:00] [INFO ] server_scripts:script.js:8: Hello, World! (You will see this line every time server resources reload)
+[20:10:00] [INFO ] SourceFile:18: Loaded script server_scripts:script.js in 0.001 s
+[20:10:00] [INFO ] SourceFile:18: Loaded 1/1 KubeJS server scripts in 0.005 s
+[20:10:00] [INFO ] Scripts loaded
+[20:10:00] [INFO ] Scanning recipes...
+[20:10:03] [INFO ] [blocks] Found 942 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [blocks] Found 942 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [items] Found 1534 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [items] Found 1534 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [fluids] Found 158 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [fluids] Found 158 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [entity_types] Found 73 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [entity_types] Found 73 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [potions] Found 0 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [pigments] Found 0 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [enchantments] Found 1 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [enchantments] Found 1 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [tile_entity_types] Found 5 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [tile_entity_types] Found 5 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [slurries] Found 2 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [infuse_types] Found 8 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [gases] Found 5 tags, added 0 objects, removed 0 objects
+[20:10:03] [INFO ] [gases] Found 5 tags, added 0 objects, removed 0 objects
+[20:10:03] [WARN ] Failed to parse recipe 'thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds[thermal:insolator]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[20:10:03] [WARN ] Failed to parse recipe thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds[thermal:insolator]: com.google.gson.JsonSyntaxException: Invalid Thermal Series recipe: thermal:compat/mysticalagriculture/insolator_mysticalag_zombie_pigman_seeds
+Refer to the recipe's ResourceLocation to find the mod responsible and let them know!
+[20:10:03] [WARN ] Failed to parse recipe 'ae2wtlib:wireless_universal_terminal/upgrade_pattern[ae2wtlib:upgrade]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: ae2wtlib:upgrade
+[20:10:03] [WARN ] Failed to parse recipe ae2wtlib:wireless_universal_terminal/upgrade_pattern[ae2wtlib:upgrade]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:upgrade'
+[20:10:03] [WARN ] Failed to parse recipe 'thermal:compat/appliedenergistics2/ae2_ender_pearl_dust_convert[minecraft:crafting_shapeless]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item tag 'thermal:ender_pearl_dust'
+[20:10:03] [WARN ] Failed to parse recipe thermal:compat/appliedenergistics2/ae2_ender_pearl_dust_convert[minecraft:crafting_shapeless]: com.google.gson.JsonSyntaxException: Unknown item tag 'thermal:ender_pearl_dust'
+[20:10:03] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_orange_oak_sapling[thermal:insolator]': {"item":"minecraft:orange_oak_sapling"} is not a valid ingredient!
+[20:10:04] [WARN ] Failed to parse recipe 'ae2wtlib:wireless_universal_terminal/ip[ae2wtlib:combine]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: ae2wtlib:combine
+[20:10:04] [WARN ] Failed to parse recipe ae2wtlib:wireless_universal_terminal/ip[ae2wtlib:combine]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:combine'
+[20:10:04] [WARN ] Failed to parse recipe 'ae2wtlib:wireless_universal_terminal/ci[ae2wtlib:combine]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: ae2wtlib:combine
+[20:10:04] [WARN ] Failed to parse recipe ae2wtlib:wireless_universal_terminal/ci[ae2wtlib:combine]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:combine'
+[20:10:04] [WARN ] Failed to parse recipe 'ae2wtlib:wireless_universal_terminal/cp[ae2wtlib:combine]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: ae2wtlib:combine
+[20:10:04] [WARN ] Failed to parse recipe ae2wtlib:wireless_universal_terminal/cp[ae2wtlib:combine]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:combine'
+[20:10:04] [WARN ] Failed to parse recipe 'thermal:fuels/compression/compression_creosote[thermal:compression_fuel]': {"fluid_tag":"forge:creosote","amount":1000} is not a valid ingredient!
+[20:10:04] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_yellow_birch_sapling[thermal:insolator]': {"item":"minecraft:yellow_birch_sapling"} is not a valid ingredient!
+[20:10:04] [WARN ] Failed to parse recipe 'ae2wtlib:wireless_universal_terminal/upgrade_interface[ae2wtlib:upgrade]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: ae2wtlib:upgrade
+[20:10:04] [WARN ] Failed to parse recipe ae2wtlib:wireless_universal_terminal/upgrade_interface[ae2wtlib:upgrade]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:upgrade'
+[20:10:04] [WARN ] Failed to parse recipe 'ae2wtlib:wireless_universal_terminal/upgrade_crafting[ae2wtlib:upgrade]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: ae2wtlib:upgrade
+[20:10:04] [WARN ] Failed to parse recipe ae2wtlib:wireless_universal_terminal/upgrade_crafting[ae2wtlib:upgrade]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'ae2wtlib:upgrade'
+[20:10:04] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_yellow_oak_sapling[thermal:insolator]': {"item":"minecraft:yellow_oak_sapling"} is not a valid ingredient!
+[20:10:04] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_flowering_oak_sapling[thermal:insolator]': {"item":"minecraft:flowering_oak_sapling"} is not a valid ingredient!
+[20:10:04] [WARN ] Failed to parse recipe 'industrialagriculture:crops/temp/diamond[botanypots:crop]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: botanypots:crop
+[20:10:04] [WARN ] Failed to parse recipe industrialagriculture:crops/temp/diamond[botanypots:crop]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+[20:10:04] [WARN ] Failed to parse recipe 'industrialagriculture:crops/temp/netherite[botanypots:crop]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: botanypots:crop
+[20:10:04] [WARN ] Failed to parse recipe industrialagriculture:crops/temp/netherite[botanypots:crop]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+[20:10:04] [WARN ] Failed to parse recipe 'industrialagriculture:crops/temp/nether_star[botanypots:crop]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: botanypots:crop
+[20:10:04] [WARN ] Failed to parse recipe industrialagriculture:crops/temp/nether_star[botanypots:crop]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+[20:10:04] [WARN ] Failed to parse recipe 'industrialagriculture:eggs/minecraft/zombie_pigman_egg[mysticalagriculture:infusion]'! Falling back to vanilla: com.google.gson.JsonSyntaxException: Unknown item 'mysticalagriculture:zombie_pigman_essence'
+[20:10:04] [WARN ] Failed to parse recipe industrialagriculture:eggs/minecraft/zombie_pigman_egg[mysticalagriculture:infusion]: com.google.gson.JsonSyntaxException: Unknown item 'mysticalagriculture:zombie_pigman_essence'
+[20:10:04] [WARN ] Failed to parse recipe 'industrialagriculture:crops/temp/gold[botanypots:crop]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: botanypots:crop
+[20:10:04] [WARN ] Failed to parse recipe industrialagriculture:crops/temp/gold[botanypots:crop]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+[20:10:04] [WARN ] Failed to parse recipe 'industrialagriculture:crops/temp/iron[botanypots:crop]'! Falling back to vanilla: java.lang.NullPointerException: Unknown recipe type: botanypots:crop
+[20:10:04] [WARN ] Failed to parse recipe industrialagriculture:crops/temp/iron[botanypots:crop]: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'botanypots:crop'
+[20:10:04] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_orange_birch_sapling[thermal:insolator]': {"item":"minecraft:orange_birch_sapling"} is not a valid ingredient!
+[20:10:04] [WARN ] Failed to parse recipe 'thermal:compat/genericeco/insolator_minecraft_red_oak_sapling[thermal:insolator]': {"item":"minecraft:red_oak_sapling"} is not a valid ingredient!
+[20:10:04] [INFO ] Found 22959 recipes and 0 failed recipes in 788.9 ms
+[20:10:04] [INFO ] Posted recipe events in 689.1 μs
+[20:10:05] [INFO ] Modified & removed recipes in 619.8 ms
+[20:10:05] [INFO ] Added recipes in 11.20 μs
+[20:10:05] [INFO ] Added 0 recipes, removed 0 recipes, modified 0 recipes, with 0 failed recipes and 0 fall-backed recipes
+[20:10:08] [INFO ] [functions] Found 0 tags, added 0 objects, removed 0 objects
+[20:10:08] [INFO ] [functions] Found 0 tags, added 0 objects, removed 0 objects

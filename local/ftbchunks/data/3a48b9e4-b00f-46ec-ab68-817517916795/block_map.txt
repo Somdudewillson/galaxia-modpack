@@ -1,0 +1,2 @@
+#468304 minecraft:crafting_table
+#7E2654 minecraft:sandstone

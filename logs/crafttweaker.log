@@ -1,0 +1,60 @@
+[19:52:07.989][CONSTRUCT][CLIENT][INFO] Starting building internal Registries
+[19:52:11.722][CONSTRUCT][CLIENT][INFO] The following mods have explicit CraftTweaker support:
+'ars_nouveau' at version '1.25.9'
+'bloodmagic' at version '1.16.4-3.1.13-39'
+'botania' at version '1.16.5-420.3'
+'crafttweaker' at version '7.1.2.515'
+'farmersdelight' at version '1.16.5-0.6.0'
+'gamestages' at version '7.3.13'
+'immersiveengineering' at version '1.16.5-5.1.0-148'
+'jeitweaker' at version '1.1.0.49'
+'lazierae2' at version '2.0.4'
+'mekanism' at version '10.1.2'
+'mysticalagriculture' at version '4.2.6'
+'pneumaticcraft' at version '1.16.5-2.15.12-13'
+'projecte' at version 'PE1.0.2'
+'recipestages' at version '2.0.0.21'
+'tconstruct' at version '3.3.4.335'
+'thermal' at version '1.5.2.30'
+'thermal_foundation' at version '1.5.2.30'
+[19:52:12.855][CONSTRUCT][CLIENT][INFO] Completed building internal Registries
+[19:52:25.620][LOAD_REGISTRIES][CLIENT][INFO] Started loading Scripts for Loader 'mekanismcontent'!
+[19:52:26.291][LOAD_REGISTRIES][CLIENT][INFO] Finished loading Scripts!
+[19:52:26.291][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom gases.
+[19:52:26.301][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom infuse types.
+[19:52:26.306][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom pigments.
+[19:52:26.307][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom robit skins.
+[19:52:26.309][LOAD_REGISTRIES][CLIENT][INFO] Registering 0 custom slurries.
+[19:52:40.894][COMMON_SETUP][CLIENT][INFO] Started loading Scripts for Loader 'setupCommon'!
+[19:52:41.045][COMMON_SETUP][CLIENT][INFO] Finished loading Scripts!
+[20:01:15.612][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[20:01:15.701][DONE][CLIENT][INFO] Finished loading Scripts!
+Item: <item:minecraft:andesite>
+Block: <block:minecraft:andesite>
+BlockState: <blockstate:minecraft:andesite>
+Item Tag Entries
+    -  <tag:items:tconstruct:stoneshields>
+    -  <tag:items:quark:stone_tool_materials>
+    -  <tag:items:c:stone>
+    -  <tag:items:chisel:andesite>
+    -  <tag:items:forge:stone>
+    -  <tag:items:resourcefulbees:valid_apiary>
+    -  <tag:items:engineersdecor:accepted_mineral_smelter_input>
+    -  <tag:items:botania:semi_disposable>
+Block Tag Entries
+    -  <tag:blocks:minecraft:stone_unpolished>
+    -  <tag:blocks:minecraft:base_stone_overworld>
+    -  <tag:blocks:chisel:andesite>
+    -  <tag:blocks:forge:stone>
+    -  <tag:blocks:botania:terraformable>
+    -  <tag:blocks:quark:underground_biome_replaceable>
+    -  <tag:blocks:occultism:cave_wall_blocks>
+    -  <tag:blocks:minecraft:andesite>
+[20:10:09.197][DONE][SERVER][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[20:10:09.314][DONE][SERVER][INFO] Loading file: 'recipe.zs' with priority: 10
+[20:10:09.377][DONE][SERVER][INFO] Adding "minecraft:crafting" recipe, of type: "shaped", with name: "recipestages:recipetestname" that outputs: <item:minecraft:andesite>.mutable()
+[20:10:09.378][DONE][SERVER][INFO] Finished loading Scripts!
+[20:10:09.380][DONE][SERVER][INFO] This reload was made possible by Ncc1702 and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
+[20:10:32.431][DONE][CLIENT][INFO] Started loading Scripts for Loader 'crafttweaker'!
+[20:10:32.503][DONE][CLIENT][INFO] Loading file: 'recipe.zs' with priority: 10
+[20:10:32.514][DONE][CLIENT][INFO] Finished loading Scripts!

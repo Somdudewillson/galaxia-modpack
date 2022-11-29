@@ -1,0 +1,26 @@
+{
+	id: "09CE468117849ADF"
+	group: ""
+	order_index: 0
+	filename: "chapter"
+	title: "chapter"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: 0.0d
+		y: 0.0d
+		id: "15959ECE15520999"
+		tasks: [{
+			id: "7B6CE26E362E769B"
+			type: "checkmark"
+			title: "easier recipe"
+		}]
+		rewards: [{
+			id: "3364804DD1C90937"
+			type: "command"
+			auto: "enabled"
+			command: "/gamestage add @p recipetest"
+			player_command: true
+		}]
+	}]
+}
