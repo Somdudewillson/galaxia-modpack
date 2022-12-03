@@ -14,7 +14,7 @@
 	"Machine Speed Upgrade Scale" = 5
 	#Chunkloader radius in Chunks [default:1]
 	#Range: 0 ~ 1
-	"Chunkloader Radius" = 2
+	"Chunkloader Radius" = 1
 
 ["Void Miner"]
 	#Void Miner Partial Tag Blacklist (case insensitive)

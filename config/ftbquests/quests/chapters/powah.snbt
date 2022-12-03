@@ -1,0 +1,355 @@
+{
+	id: "4E5A0871C10E9987"
+	group: "419143ABBFCCDF5B"
+	order_index: 3
+	filename: "powah"
+	title: "Powah!"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Powah!"
+			x: 0.0d
+			y: 0.5d
+			description: ["Powah is a mod filled with rf generators, and to start, you will need some dielectric paste. All of these machines exist in different tiers. You can try out the basic ones to see which ones fit you the best, and then move on to an alternative of a higher tier."]
+			id: "2E8F75AB5F9AF5A9"
+			tasks: [{
+				id: "00BD85F882B8893C"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "05FD7FAA28F12901"
+					type: "item"
+					item: "powah:book"
+				}
+				{
+					id: "31CAD9A958F0B11B"
+					type: "item"
+					item: {
+						id: "powah:wrench"
+						Count: 1b
+						tag: {
+							PowahWrenchNBT: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			description: ["The energizer energizes items using powered energizing rods. The powered items are used for the next tiers of generators and rf transporters."]
+			dependencies: ["2E8F75AB5F9AF5A9"]
+			id: "6113FF4475A01929"
+			tasks: [
+				{
+					id: "3D6057F575EBC900"
+					type: "item"
+					item: "powah:energizing_orb"
+				}
+				{
+					id: "1C7D50C6AE895180"
+					type: "item"
+					item: "powah:energizing_rod_starter"
+				}
+			]
+			rewards: [{
+				id: "12E7B65F5ACE86AA"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.0d
+			description: ["The solar panel generates rf when exposed to sun."]
+			dependencies: ["2E8F75AB5F9AF5A9"]
+			id: "636D616F4FC864E0"
+			tasks: [{
+				id: "26FD0F9D230EF304"
+				type: "item"
+				item: "powah:solar_panel_starter"
+			}]
+			rewards: [{
+				id: "5C96A06E8DE0ACB1"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			dependencies: ["2E8F75AB5F9AF5A9"]
+			id: "390A40B3259CAC75"
+			tasks: [{
+				id: "2E415CB8EA6A4E10"
+				type: "item"
+				item: "powah:furnator_starter"
+			}]
+			rewards: [{
+				id: "0D43F4A17C800280"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.0d
+			description: ["The magmator produces rf using high temperature fluids."]
+			dependencies: ["2E8F75AB5F9AF5A9"]
+			id: "01BB2C888B13549B"
+			tasks: [{
+				id: "408CD38302C7A42A"
+				type: "item"
+				item: "powah:magmator_starter"
+			}]
+			rewards: [{
+				id: "2F20E25D7CB686C1"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			description: ["The energy cell stores energy."]
+			dependencies: ["2E8F75AB5F9AF5A9"]
+			id: "4D001A9449F2FE06"
+			tasks: [{
+				id: "4064440BFBA9DD29"
+				type: "item"
+				item: "powah:energy_cell_starter"
+			}]
+			rewards: [{
+				id: "08F0940DD46888B7"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			description: ["The ender cable transports energy trough a cable network."]
+			dependencies: ["2E8F75AB5F9AF5A9"]
+			id: "1075ED1616243973"
+			tasks: [{
+				id: "705643C79D51259F"
+				type: "item"
+				item: "powah:energy_cable_starter"
+			}]
+			rewards: [{
+				id: "39DA77A6E769AC99"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			description: [
+				""
+				"The ender cell is basically an ender chest for rf, and it works with channels where you can store energy."
+				"The ender gate supplies rf to one of these networks once powered."
+			]
+			dependencies: ["2E8F75AB5F9AF5A9"]
+			id: "60633EAF3214F074"
+			tasks: [
+				{
+					id: "2A97B06F3601D7D9"
+					type: "item"
+					item: "powah:ender_cell_starter"
+				}
+				{
+					id: "3C7B388804CBEE6C"
+					type: "item"
+					item: "powah:ender_gate_starter"
+				}
+			]
+			rewards: [{
+				id: "7F67F2AD2EB4A03B"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+			}]
+		}
+		{
+			x: -6.0d
+			y: 5.0d
+			description: ["Summons lightning upon impact"]
+			dependencies: ["2E8F75AB5F9AF5A9"]
+			id: "058635E0CCB44B5A"
+			tasks: [{
+				id: "02495B64AE107B38"
+				type: "item"
+				item: "powah:charged_snowball"
+			}]
+			rewards: [{
+				id: "24DC30B9F6A70DA0"
+				type: "item"
+				item: "powah:charged_snowball"
+				count: 16
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			description: ["The thermal generator generates rf using heat it gets from blocks below."]
+			dependencies: ["2E8F75AB5F9AF5A9"]
+			id: "5835DC59E3DC9057"
+			tasks: [{
+				id: "3F74F274E61FCF51"
+				type: "item"
+				item: "powah:thermo_generator_starter"
+			}]
+			rewards: [{
+				id: "4953EA21586E06B4"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			description: [
+				""
+				"If you have 36 reactor blocks, the reactor will auto-build itself once one block is placed and it generates a lot of power using some urananite."
+			]
+			dependencies: ["2E8F75AB5F9AF5A9"]
+			id: "58E61142AD483CDD"
+			tasks: [{
+				id: "60253292622B832C"
+				type: "item"
+				item: "powah:reactor_starter"
+				count: 36L
+			}]
+			rewards: [{
+				id: "615FC639A1620D94"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			description: ["The battery is a portable way of storing energy."]
+			dependencies: ["2E8F75AB5F9AF5A9"]
+			id: "55201029540BFBEB"
+			tasks: [{
+				id: "1F24A435DA05887A"
+				type: "item"
+				item: {
+					id: "powah:battery_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "225F4D6B8E9C85EC"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			description: ["When it gets rf, it powers chargable items inside of the container it is connected to."]
+			dependencies: ["2E8F75AB5F9AF5A9"]
+			id: "59D529C197B66C9E"
+			tasks: [{
+				id: "6A2AB4C6D7C5F978"
+				type: "item"
+				item: "powah:energy_hopper_starter"
+			}]
+			rewards: [{
+				id: "0C40CBECF530CCDB"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			description: ["Use the binding card to bind the player transmittor to a person, and then it will transmit its power to the person it is bound to. It will then charge items inside it's inventory as long as that person's in the same dimension."]
+			dependencies: ["2E8F75AB5F9AF5A9"]
+			id: "57DDF4C050A213AC"
+			tasks: [
+				{
+					id: "71AB53D08123673C"
+					type: "item"
+					item: "powah:player_transmitter_starter"
+				}
+				{
+					id: "08E01529F019D45C"
+					type: "item"
+					item: "powah:binding_card"
+				}
+			]
+			rewards: [{
+				id: "5B45ABA039E7978B"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.0d
+			description: ["The energy discharger is used to take the energy from items inside of it and store it, making it reusable again."]
+			dependencies: ["2E8F75AB5F9AF5A9"]
+			id: "11F19594441C8EC5"
+			tasks: [{
+				id: "5C6C9BC1D790E9AE"
+				type: "item"
+				item: "powah:energy_discharger_starter"
+			}]
+			rewards: [{
+				id: "222B39D9CBFE8CD5"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+			}]
+		}
+		{
+			x: 8.0d
+			y: 6.5d
+			description: ["This is basically the binding card but it can be used across dimensions."]
+			dependencies: ["57DDF4C050A213AC"]
+			id: "79ACCF407E6F2102"
+			tasks: [{
+				id: "22AC4BBDFDF8B284"
+				type: "item"
+				item: "powah:binding_card_dim"
+			}]
+			rewards: [{
+				id: "4F6750AB4CC55F6E"
+				type: "item"
+				item: "powah:dielectric_paste"
+				count: 8
+			}]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			dependencies: ["636D616F4FC864E0"]
+			id: "6D632B9DACD9A390"
+			tasks: [{
+				id: "383D07DC0CF7FBA0"
+				type: "item"
+				item: "powah:lens_of_ender"
+			}]
+		}
+	]
+}

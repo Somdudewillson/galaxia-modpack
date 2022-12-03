@@ -1,0 +1,400 @@
+{
+	id: "6B4607E2DA29AE14"
+	group: "419143ABBFCCDF5B"
+	order_index: 2
+	filename: "tinkers_construct"
+	title: "tinker's construct"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Tinkers' construct"
+			x: 0.5d
+			y: -0.5d
+			description: ["To start with Tinkers' construct, you will need a few patterns."]
+			id: "588E92926E011B1C"
+			tasks: [{
+				id: "7493D100D6CDE987"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 16L
+			}]
+			rewards: [{
+				id: "527274E0947E7594"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 16
+			}]
+		}
+		{
+			title: "basic tables"
+			x: 3.0d
+			y: -3.0d
+			description: ["Use these tables to make your first basic tools. The crafting table is basically a better crafting table."]
+			dependencies: ["588E92926E011B1C"]
+			id: "7AC24B23B7445621"
+			tasks: [
+				{
+					id: "73D33BEB88D9B920"
+					type: "item"
+					item: {
+						id: "tconstruct:crafting_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_log"
+						}
+					}
+				}
+				{
+					id: "337236450FC2DEA6"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "68BAF8FDEDA7BB7B"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "0329D1663154C3B6"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+				{
+					id: "6F1ACCACD88E8A7F"
+					type: "item"
+					item: "tconstruct:tinkers_chest"
+				}
+			]
+			rewards: [{
+				id: "78FFED485B9F21CA"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 16
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			description: ["These two combined make for really good mobility: the slime sling shoots you up and the slimeboots make you bounce! Just dont sneak mid air or you will not bounce, and that hurts."]
+			dependencies: ["588E92926E011B1C"]
+			id: "186B693B64F2C8B4"
+			tasks: [
+				{
+					id: "751DCD3DA3A8FB11"
+					type: "item"
+					item: {
+						id: "tconstruct:earth_slime_sling"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "651728C083BA40D7"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_boots"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 546.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:bouncy"
+									level: 1s
+								}
+								{
+									name: "tconstruct:leaping"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "53E5DEBFAE1E25A3"
+				type: "item"
+				item: "minecraft:slime_ball"
+				count: 16
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: ["Some delicious cakes made from different kinds of slime."]
+			dependencies: ["588E92926E011B1C"]
+			id: "6CB36082B8423887"
+			tasks: [
+				{
+					id: "623E02C5CA5F8DA5"
+					type: "item"
+					item: "tconstruct:earth_cake"
+				}
+				{
+					id: "2359C52FF1B37962"
+					type: "item"
+					item: "tconstruct:sky_cake"
+				}
+				{
+					id: "152DF9A2F4765662"
+					type: "item"
+					item: "tconstruct:ender_cake"
+				}
+				{
+					id: "73EF1F284C42E9D2"
+					type: "item"
+					item: "tconstruct:blood_cake"
+				}
+				{
+					id: "42900BE5E74F7367"
+					type: "item"
+					item: "tconstruct:magma_cake"
+				}
+			]
+			rewards: [{
+				id: "1AEEE84CBD81BBBE"
+				type: "item"
+				item: "thermal:carrot_cake"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			description: ["This is basically a better tinker station."]
+			dependencies: ["588E92926E011B1C"]
+			id: "20D383A107429CE8"
+			tasks: [{
+				id: "6369535C56115D87"
+				type: "item"
+				item: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: {
+						texture: "tconstruct:tinkers_bronze_block"
+					}
+				}
+			}]
+			rewards: [{
+				id: "472F1DDBB3724B48"
+				type: "item"
+				item: "tconstruct:tinkers_bronze_ingot"
+				count: 16
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			description: ["A book to answer all your tinkering questions."]
+			dependencies: ["588E92926E011B1C"]
+			id: "5380C7E31BB425CC"
+			tasks: [{
+				id: "7DF9D258C4D6FC75"
+				type: "item"
+				item: "tconstruct:encyclopedia"
+			}]
+			rewards: [{
+				id: "095D71B917BC652B"
+				type: "item"
+				item: "minecraft:book"
+				count: 8
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			description: ["EFLNs are a special type of explosive which leaves all the blocks it exploded, it is great for mining."]
+			dependencies: ["588E92926E011B1C"]
+			id: "6807BC4F327C0E41"
+			tasks: [{
+				id: "5CE0D868BA303B77"
+				type: "item"
+				item: "tconstruct:efln_ball"
+			}]
+			rewards: [{
+				id: "0788DDC01133AFC3"
+				type: "item"
+				item: "tconstruct:efln_ball"
+				count: 4
+			}]
+		}
+		{
+			title: "Shurikens"
+			x: -2.0d
+			y: -0.5d
+			description: ["Shurikens are a special way of ranged combat."]
+			dependencies: ["588E92926E011B1C"]
+			id: "09A132DED096F3F2"
+			tasks: [
+				{
+					id: "3EBC9DB98FFF2159"
+					type: "item"
+					item: "tconstruct:quartz_shuriken"
+				}
+				{
+					id: "54DE333D90F820BD"
+					type: "item"
+					item: "tconstruct:flint_shuriken"
+				}
+			]
+			rewards: [
+				{
+					id: "0699E3B5037914A0"
+					type: "item"
+					item: "tconstruct:quartz_shuriken"
+					count: 16
+				}
+				{
+					id: "42520953BBE91EAF"
+					type: "item"
+					item: "tconstruct:flint_shuriken"
+					count: 16
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -3.0d
+			description: ["This is a more basic version of the smeltery."]
+			dependencies: ["588E92926E011B1C"]
+			id: "04B3303C2397DCC8"
+			tasks: [
+				{
+					id: "7932013D36F08AEA"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "3ED25031301B6DE7"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "03F8C27B4F7FA167"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "1336118CD84630A2"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+			]
+			rewards: [{
+				id: "0F8F4CD1D5F425D1"
+				type: "item"
+				item: "tconstruct:blank_sand_cast"
+				count: 16
+			}]
+		}
+		{
+			title: "Smeltery"
+			x: 0.5d
+			y: -5.5d
+			description: ["Smelts items and is able to pour their smelted forms into casts or into a basin to turn them into certain items."]
+			dependencies: ["04B3303C2397DCC8"]
+			id: "0E4C7A0CF984EC1A"
+			tasks: [
+				{
+					id: "72F28E305922E086"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "1BA7678778162A6B"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "0576AE346A361B38"
+					type: "item"
+					item: "tconstruct:seared_chute"
+				}
+				{
+					id: "40868A616C486EAC"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+			]
+			rewards: [{
+				id: "1CD05EF8FB9598D9"
+				type: "item"
+				item: "tconstruct:ingot_cast"
+			}]
+		}
+		{
+			title: "Foundry"
+			x: 0.5d
+			y: -8.0d
+			description: ["This is a better version of the smeltery."]
+			dependencies: ["0E4C7A0CF984EC1A"]
+			id: "7725486146ABDAEC"
+			tasks: [
+				{
+					id: "23CCB6D6914A20C1"
+					type: "item"
+					item: "tconstruct:foundry_controller"
+				}
+				{
+					id: "77B47FD3BD9D3A9F"
+					type: "item"
+					item: "tconstruct:scorched_fuel_tank"
+				}
+				{
+					id: "735C81B0169259BE"
+					type: "item"
+					item: "tconstruct:scorched_basin"
+				}
+				{
+					id: "1BAD3DAEA9051A2C"
+					type: "item"
+					item: "tconstruct:scorched_table"
+				}
+				{
+					id: "642BA52409062305"
+					type: "item"
+					item: "tconstruct:scorched_chute"
+				}
+				{
+					id: "776C8B5312AD1805"
+					type: "item"
+					item: "tconstruct:scorched_drain"
+				}
+				{
+					id: "51D05998C1D84D1C"
+					type: "item"
+					item: "tconstruct:scorched_faucet"
+				}
+			]
+			rewards: [{
+				id: "4CB9DEF759B4638C"
+				type: "item"
+				item: "tconstruct:cast_chest"
+			}]
+		}
+	]
+}

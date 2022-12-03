@@ -1,0 +1,946 @@
+{
+	id: "37C3CC2FF8B34365"
+	group: "419143ABBFCCDF5B"
+	order_index: 0
+	filename: "create"
+	title: "Create"
+	icon: "creategears:half_shaft_gear"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "create"
+			x: 0.5d
+			y: 0.0d
+			description: ["Create is a simple early game tech mod, which mostly revolves around gears. You will need a few basic items to begin. You can ponder at every item in the mod with the z key, and you can see the item's function like that."]
+			id: "136B386262860424"
+			tasks: [
+				{
+					id: "06C7A0A977046C00"
+					type: "item"
+					item: "creategears:half_shaft_gear"
+				}
+				{
+					id: "7599FADCA01369BD"
+					type: "item"
+					item: "creategears:large_half_shaft_gear"
+				}
+				{
+					id: "31791F450D169A4C"
+					type: "item"
+					item: "create:andesite_alloy"
+				}
+				{
+					id: "1C9CC8BE963A1D5D"
+					type: "item"
+					item: "create:shaft"
+				}
+			]
+			rewards: [
+				{
+					id: "713A4FDCFA0CBECD"
+					type: "item"
+					item: "create:goggles"
+				}
+				{
+					id: "559E3CC0367F5D68"
+					type: "item"
+					item: "create:wrench"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			description: ["A cheap way of getting some easy rotational power. If you want a lot of stress capacity, you can make a row of these."]
+			dependencies: ["136B386262860424"]
+			id: "60E4644ACFF5D399"
+			tasks: [{
+				id: "3393A81B11D99092"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "7D9622114A9965E2"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 16
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			description: ["A useful way of creating rotational power with low effort required to set up and you can even make it bigger!"]
+			dependencies: ["136B386262860424"]
+			id: "581113FB96033A92"
+			tasks: [
+				{
+					id: "2F7672D04D9021DC"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "12E260CA80960733"
+					type: "item"
+					item: "create:sail_frame"
+				}
+				{
+					id: "6A510CCA6C2B21FB"
+					type: "item"
+					item: "create:white_sail"
+				}
+			]
+			rewards: [{
+				id: "3CA3EF6919CE0C52"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 16
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			description: ["Why would you even make this? This is absolutely useless! I guess if ur too lazy for a waterwheel this is an option, but just why go trough the effort of making this? You get birch wood for making this, it is the best i can do."]
+			dependencies: ["136B386262860424"]
+			id: "030A9C3569F5CF2E"
+			tasks: [{
+				id: "50301C821C0374AC"
+				type: "item"
+				item: "create:hand_crank"
+			}]
+			rewards: [{
+				id: "1812E2F9242BE5AC"
+				type: "item"
+				item: "minecraft:birch_wood"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			description: ["great for making assembly lines and automation"]
+			dependencies: ["136B386262860424"]
+			id: "55259274BC597770"
+			tasks: [{
+				id: "0A4CB6ACE8546C80"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "156E0A434CDA531B"
+				type: "item"
+				item: "create:belt_connector"
+				count: 16
+			}]
+		}
+		{
+			title: "mixer"
+			x: -3.0d
+			y: -1.0d
+			description: ["for mixing certain materials"]
+			dependencies: ["136B386262860424"]
+			id: "34F56FEE1E0DC58C"
+			tasks: [
+				{
+					id: "663282518EE8B462"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "4EDD1D4A6B3E50D9"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [{
+				id: "2A5BE2F63DB642DD"
+				type: "item"
+				item: "createaddition:chocolate_cake"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			description: ["Gearboxes can be used to take turns in your shaft system or to make your rotational power go vertically."]
+			dependencies: ["136B386262860424"]
+			id: "1C2BF6EAF8726A00"
+			tasks: [
+				{
+					id: "5E67F5A284A7F7AC"
+					type: "item"
+					item: "create:gearbox"
+				}
+				{
+					id: "29D7F0079F7EB88A"
+					type: "item"
+					item: "create:vertical_gearbox"
+				}
+			]
+			rewards: [{
+				id: "3026AD35B65B972B"
+				type: "item"
+				item: "creategears:large_half_shaft_gear"
+				count: 4
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			description: ["Used to grind ores into crushed versions"]
+			dependencies: ["136B386262860424"]
+			id: "3CA8EA8E6788A212"
+			tasks: [{
+				id: "6DD3D35940D13C8F"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "59B3D128648FC15D"
+				type: "item"
+				item: "minecraft:iron_ore"
+				count: 10
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			description: ["Can be used as a stationary version of the conveyor belt"]
+			dependencies: ["136B386262860424"]
+			id: "1604CFDFA3EC654B"
+			tasks: [{
+				id: "1FD2E21533C776A0"
+				type: "item"
+				item: "create:depot"
+			}]
+			rewards: [{
+				id: "5DFED1DB80CF1B91"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 16
+			}]
+		}
+		{
+			title: "Mechanical Press"
+			x: 4.0d
+			y: 1.0d
+			description: [
+				""
+				"The mechanical press can press items into other items, it is actually really simple, just give it rotational force and put a depot or a basin under it depending on the recipe. You can also replace the depot with a conveyor belt."
+			]
+			dependencies: ["136B386262860424"]
+			id: "1A4E942ED2AFF520"
+			tasks: [
+				{
+					id: "1812F17EB990F5E3"
+					type: "item"
+					item: "create:depot"
+				}
+				{
+					id: "242D92C5F989EE72"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "7E64301CA9D545CC"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [{
+				id: "7EBA0E2533E5AB26"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 16
+			}]
+		}
+		{
+			title: "low range item transport"
+			x: -3.0d
+			y: 1.0d
+			description: ["You can use these items to transport items vertically/horizontally, and they work best when they are connected to conveyor belts to input and output items."]
+			dependencies: ["136B386262860424"]
+			id: "6E526BA740B6F3EC"
+			tasks: [
+				{
+					id: "766FAC1068B38498"
+					type: "item"
+					item: "create:andesite_funnel"
+				}
+				{
+					id: "4B71EDD57ABDD2C5"
+					type: "item"
+					item: "create:andesite_tunnel"
+				}
+				{
+					id: "775FFCFB2ADEADC5"
+					type: "item"
+					item: "create:chute"
+				}
+			]
+			rewards: [{
+				id: "19FCF71371E6169D"
+				type: "item"
+				item: "minecraft:hopper"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -4.5d
+			description: ["Sandpaper used to smoothen rose quartz"]
+			dependencies: ["136B386262860424"]
+			id: "00C5F1ABE83655AD"
+			tasks: [{
+				id: "66533BF27AC60A8F"
+				type: "item"
+				item: {
+					id: "create:sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "23B61FB6CD140922"
+				type: "item"
+				item: {
+					id: "create:sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -6.0d
+			description: ["quartz but pink"]
+			dependencies: ["00C5F1ABE83655AD"]
+			id: "76F795403D5E53E7"
+			tasks: [
+				{
+					id: "1A69DE87ED185DD0"
+					type: "item"
+					item: "create:rose_quartz"
+				}
+				{
+					id: "3F11C55504057B1B"
+					type: "item"
+					item: "create:polished_rose_quartz"
+				}
+			]
+			rewards: [{
+				id: "50816E553DB35184"
+				type: "item"
+				item: "minecraft:pink_dye"
+				count: 16
+			}]
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			description: ["This item is used to craft a lot of machines"]
+			dependencies: ["76F795403D5E53E7"]
+			id: "68924F197D7D7FF7"
+			tasks: [{
+				id: "3595E6EB15078843"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+			rewards: [{
+				id: "3A4FD404290A2162"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -6.5d
+			description: ["The deployer is an item with a lot of uses, use ponder to view all of them."]
+			dependencies: ["68924F197D7D7FF7"]
+			id: "02175AFACA7FD118"
+			tasks: [{
+				id: "3CE56AF14C918584"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "3341ECB171608E19"
+				type: "item"
+				item: "create:deployer"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			description: ["To get this, you need to right click a blaze with an empty blaze burner. This will consume the blaze, and it can be used to heat up machines for special recipes when you give it fuel"]
+			dependencies: ["34F56FEE1E0DC58C"]
+			id: "650462D0058B8B99"
+			tasks: [{
+				id: "59F12318EDF5A7A3"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "16486E275F811E8B"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.5d
+			description: ["Feed this to your blaze burner to make it temporarily super heated for special recipes"]
+			dependencies: ["650462D0058B8B99"]
+			id: "3FEC21FDDFE2D1D3"
+			tasks: [{
+				id: "521BA2FE58B0DF5E"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+			rewards: [{
+				id: "276BC14E5CFBE740"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -4.5d
+			description: ["You can make this in the mixer with a fired blaze burner under it."]
+			dependencies: ["650462D0058B8B99"]
+			id: "4C8A0CF66808C284"
+			tasks: [{
+				id: "2AC1390CDA4A78E4"
+				type: "item"
+				item: "create:brass_ingot"
+			}]
+			rewards: [{
+				id: "0861C693557AE174"
+				type: "item"
+				item: "create:brass_ingot"
+				count: 10
+			}]
+		}
+		{
+			x: -5.0d
+			y: -7.0d
+			description: ["Can craft normal and some special recipes"]
+			dependencies: ["68924F197D7D7FF7"]
+			id: "23D6D67291F3B500"
+			tasks: [{
+				id: "129E603D7001EDE7"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [{
+				id: "730250DFDBACF285"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -9.0d
+			description: ["Put two crushing wheels next to each other, have them spin in different directions both going down in the middle and insert items in the middle on top to crush them."]
+			dependencies: ["23D6D67291F3B500"]
+			id: "3A8A63E4E1F4E213"
+			tasks: [{
+				id: "430B8F2A9ED97571"
+				type: "item"
+				item: "create:crushing_wheel"
+			}]
+			rewards: [{
+				id: "1A3A8B514DA73122"
+				type: "item"
+				item: "minecraft:gold_ore"
+				count: 8
+			}]
+		}
+		{
+			title: "burning rotation generator"
+			x: -7.5d
+			y: -6.0d
+			description: ["A really good rotational power generator which consumes burnable items"]
+			dependencies: [
+				"23D6D67291F3B500"
+				"4C8A0CF66808C284"
+			]
+			id: "65FC5F93754D40E8"
+			tasks: [
+				{
+					id: "0105A997E8561BE5"
+					type: "item"
+					item: "create:furnace_engine"
+				}
+				{
+					id: "34E90F38B221B513"
+					type: "item"
+					item: "create:flywheel"
+				}
+			]
+			rewards: [{
+				id: "468E83D72441E14B"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+			}]
+		}
+		{
+			x: -8.5d
+			y: -4.0d
+			description: ["Control rotational speed"]
+			dependencies: [
+				"4C8A0CF66808C284"
+				"02175AFACA7FD118"
+			]
+			id: "32E0770515825F9C"
+			tasks: [{
+				id: "30061955DD5ABFE3"
+				type: "item"
+				item: "create:rotation_speed_controller"
+			}]
+			rewards: [{
+				id: "6B395D512D195EB9"
+				type: "item"
+				item: "creategears:half_shaft_gear"
+				count: 16
+			}]
+		}
+		{
+			x: -8.5d
+			y: -2.5d
+			description: ["The mechanical arm can transport items over a short distance"]
+			dependencies: ["4C8A0CF66808C284"]
+			id: "2F26FC07AE36841F"
+			tasks: [{
+				id: "5EDF402F0962C275"
+				type: "item"
+				item: "create:mechanical_arm"
+			}]
+			rewards: [{
+				id: "172AD56DBC38733F"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.5d
+			description: ["all items in this chapter will be used to transport fluids"]
+			dependencies: ["136B386262860424"]
+			id: "72E274BAE3698EF7"
+			tasks: [{
+				id: "23E9A6846A64BB3A"
+				type: "checkmark"
+				title: "fluid transportation"
+			}]
+		}
+		{
+			title: "RF integration"
+			x: -3.5d
+			y: -9.0d
+			description: ["The electric motor converts rf to rotational power and the alternator does the opposite"]
+			dependencies: ["23D6D67291F3B500"]
+			id: "1F13E0ECE9479A95"
+			tasks: [
+				{
+					id: "776AC1A5E3B354A0"
+					type: "item"
+					item: "createaddition:electric_motor"
+				}
+				{
+					id: "743E0D3A4D421C60"
+					type: "item"
+					item: "createaddition:alternator"
+				}
+			]
+			rewards: [{
+				id: "7D35D045A5DFE925"
+				type: "item"
+				item: {
+					id: "powah:battery_starter"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "fluid pipes"
+			x: 4.0d
+			y: -5.0d
+			description: ["These are used to transport fluids. Power the mechanical pump with gears to let the fluids flow from one place to another"]
+			dependencies: ["72E274BAE3698EF7"]
+			id: "1A6E30F97BF8C92A"
+			tasks: [
+				{
+					id: "03591E3197F246A2"
+					type: "item"
+					item: "create:fluid_pipe"
+				}
+				{
+					id: "64C6C1E3B961C486"
+					type: "item"
+					item: "create:mechanical_pump"
+				}
+				{
+					id: "7C9FC172CB853027"
+					type: "item"
+					item: "create:smart_fluid_pipe"
+				}
+			]
+			rewards: [{
+				id: "61FADB63E7233864"
+				type: "item"
+				item: "tconstruct:molten_copper_bucket"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -6.0d
+			description: ["A spout can be used to extract fluids from containers above and can also be used for crafting certain items"]
+			dependencies: ["72E274BAE3698EF7"]
+			id: "448F8E1C21F64AD1"
+			tasks: [{
+				id: "4C42753B9A7739E5"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [{
+				id: "3BF2A36CC6C5DDF9"
+				type: "item"
+				item: "create:chocolate_bucket"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -5.0d
+			description: ["stores fluids"]
+			dependencies: ["72E274BAE3698EF7"]
+			id: "71E64D1BF9C3FEAD"
+			tasks: [{
+				id: "4EB5F35D2F332269"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+			rewards: [{
+				id: "1D4DE4F2E76BF2EE"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			description: [
+				"Extract fluids from the world or place them"
+				"When you are for example pulling fluids from a huge scource like the ocean, it doesnt consume the fluid in the world."
+			]
+			dependencies: ["72E274BAE3698EF7"]
+			id: "670616588E7367AD"
+			tasks: [{
+				id: "106C5C8E25878A42"
+				type: "item"
+				item: "create:hose_pulley"
+			}]
+			rewards: [{
+				id: "2AC619EAAD8BF418"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.0d
+			description: ["The valve is used to block fluids or let them go trough."]
+			dependencies: ["72E274BAE3698EF7"]
+			id: "558CAD5C69AC79CD"
+			tasks: [
+				{
+					id: "1BA0418E8FA903AE"
+					type: "item"
+					item: "create:fluid_valve"
+				}
+				{
+					id: "279F58BBBA45087F"
+					type: "item"
+					item: "create:copper_valve_handle"
+				}
+			]
+			rewards: [{
+				id: "5D5FE69E6904BC9C"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.0d
+			description: ["Drains items and stores their fluids."]
+			dependencies: ["72E274BAE3698EF7"]
+			id: "2F6B6D0B51C68F83"
+			tasks: [{
+				id: "19BC9132625F9927"
+				type: "item"
+				item: "create:item_drain"
+			}]
+			rewards: [{
+				id: "246B261050DB1FD5"
+				type: "item"
+				item: "minecraft:honey_bottle"
+				count: 4
+			}]
+		}
+		{
+			title: "random automation blocks"
+			x: -1.5d
+			y: 6.5d
+			description: ["All of these items can be used for random things, which will be useful for automating things."]
+			dependencies: ["136B386262860424"]
+			id: "09221E96B9331B9B"
+			tasks: [{
+				id: "6F8A98C456E81BCC"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "speed checkers"
+			x: -4.5d
+			y: 0.0d
+			description: ["The speedometer checks rotational speed and the stressometer checks stress capacity"]
+			dependencies: ["136B386262860424"]
+			id: "63AF70130C27F51C"
+			tasks: [
+				{
+					id: "1580BF4D8690CE3E"
+					type: "item"
+					item: "create:speedometer"
+				}
+				{
+					id: "7DF566B480CCABD7"
+					type: "item"
+					item: "create:stressometer"
+				}
+			]
+			rewards: [{
+				id: "75A4C1C128554D3A"
+				type: "item"
+				item: "create:shaft"
+				count: 16
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			description: ["The encased fan can be used to bulk blast, bulk wash, bulk smoke and move mobs around. Use ponder for more information."]
+			dependencies: ["136B386262860424"]
+			id: "398E8141683DCB3E"
+			tasks: [{
+				id: "0EA5398AF0D8F3DF"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "2B55604991FE9A54"
+				type: "item"
+				item: {
+					id: "twilightforest:peacock_fan"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.5d
+			description: ["The mechanical piston pushes and pulls blocks, and you can use the extention pole to make it longer."]
+			dependencies: ["09221E96B9331B9B"]
+			id: "63767F8B9B480109"
+			tasks: [
+				{
+					id: "54BB6988E39A0E79"
+					type: "item"
+					item: "create:mechanical_piston"
+				}
+				{
+					id: "466C59BA7CE3E533"
+					type: "item"
+					item: "create:sticky_mechanical_piston"
+				}
+				{
+					id: "6539697F8CC5F3A9"
+					type: "item"
+					item: "create:piston_extension_pole"
+				}
+			]
+			rewards: [{
+				id: "43F1256FB5972DEB"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 8.0d
+			description: ["The rope pulley can be used to push and pull items up and down."]
+			dependencies: ["09221E96B9331B9B"]
+			id: "5020BC7A800B8DD3"
+			tasks: [{
+				id: "1B0E852CD0DC1546"
+				type: "item"
+				item: "create:rope_pulley"
+			}]
+			rewards: [{
+				id: "6347A00328CBBDFD"
+				type: "item"
+				item: "minecraft:piston"
+			}]
+		}
+		{
+			title: "Chassisses"
+			x: -4.5d
+			y: 9.5d
+			description: ["You can attatch a chassis to another chassis of the same type, and it will move along with it."]
+			dependencies: ["09221E96B9331B9B"]
+			id: "3B2202BD2DC0BEA5"
+			tasks: [
+				{
+					id: "283A6D045EB169BE"
+					type: "item"
+					item: "create:linear_chassis"
+				}
+				{
+					id: "201FF1BB83235CE6"
+					type: "item"
+					item: "create:secondary_linear_chassis"
+				}
+				{
+					id: "1CB3C24A097AAEAB"
+					type: "item"
+					item: "create:radial_chassis"
+				}
+			]
+			rewards: [{
+				id: "521925EEFE050BDF"
+				type: "item"
+				item: "create:linear_chassis"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 10.0d
+			description: ["This can be used to attach contraptions built on top of this to minecarts riding under this when powered with redstone"]
+			dependencies: ["09221E96B9331B9B"]
+			id: "46CF6B2E8C61C742"
+			tasks: [{
+				id: "5B98009E9C5ECE2D"
+				type: "item"
+				item: "create:cart_assembler"
+			}]
+			rewards: [{
+				id: "73832F3DB399662A"
+				type: "item"
+				item: "minecraft:minecart"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 8.5d
+			description: ["When they recieve rotational power, the mechanical bearing just spins and the clockwork bearing spins according to the time of day"]
+			dependencies: ["09221E96B9331B9B"]
+			id: "6B9A4DC289793752"
+			tasks: [
+				{
+					id: "0156FB03558CBA33"
+					type: "item"
+					item: "create:mechanical_bearing"
+				}
+				{
+					id: "792C35736142D909"
+					type: "item"
+					item: "create:clockwork_bearing"
+				}
+			]
+			rewards: [{
+				id: "1A0E7E94BF54FC58"
+				type: "item"
+				item: "create:cuckoo_clock"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			description: ["It can process items and cut down trees."]
+			dependencies: ["09221E96B9331B9B"]
+			id: "25CC0D1F94323015"
+			tasks: [{
+				id: "03E9654E9DD822E0"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "7E10D18182977735"
+				type: "item"
+				item: "thermal:sawdust_block"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 9.5d
+			description: ["The mechanical drill breaks blocks in front of it."]
+			dependencies: ["09221E96B9331B9B"]
+			id: "72EBB24144EEF9E7"
+			tasks: [{
+				id: "742BD02E7C82054A"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "1883F7DAD3A13A91"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 10
+			}]
+		}
+		{
+			title: "mechanical farming"
+			x: -3.0d
+			y: 10.0d
+			description: ["The mechanical plough can plow dirt to farmland and destroy non-solid blocks like rails and the mechanical harvester can harvest crops."]
+			dependencies: ["09221E96B9331B9B"]
+			id: "13CF820240ACD41B"
+			tasks: [
+				{
+					id: "127ACB2FAB2EACB3"
+					type: "item"
+					item: "create:mechanical_plough"
+				}
+				{
+					id: "624635AA00C6BACB"
+					type: "item"
+					item: "create:mechanical_harvester"
+				}
+			]
+			rewards: [{
+				id: "75AD70F181B7ADDD"
+				type: "item"
+				item: "farmersdelight:cabbage_seeds"
+			}]
+		}
+	]
+}

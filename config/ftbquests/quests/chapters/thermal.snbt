@@ -1,0 +1,503 @@
+{
+	id: "0F0B54FACC0283A9"
+	group: "419143ABBFCCDF5B"
+	order_index: 1
+	filename: "thermal"
+	title: "thermal"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Where thermal begins"
+			x: -0.5d
+			y: -0.5d
+			description: ["To start with thermal, you need a machine frame."]
+			id: "11CFAACF5CBC36A7"
+			tasks: [{
+				id: "4C0B49AAC6FD96D3"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+			rewards: [{
+				id: "7D27B4029A6F68CF"
+				type: "item"
+				item: "thermal:wrench"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -6.0d
+			description: ["Just a special cobble gen"]
+			dependencies: ["11CFAACF5CBC36A7"]
+			id: "091FE79457D66739"
+			tasks: [{
+				id: "1B7FBC96EF160C8E"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+			rewards: [{
+				id: "719FC194001CA248"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -6.0d
+			description: ["Used to compact recipes or to press items into different shapes"]
+			dependencies: ["11CFAACF5CBC36A7"]
+			id: "1A7B0C3819B9E7B7"
+			tasks: [{
+				id: "73712FF6F0648DE8"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			rewards: [{
+				id: "3BD4A7778AB17F66"
+				type: "item"
+				item: "thermal:iron_plate"
+				count: 16
+			}]
+		}
+		{
+			title: "Die die die!"
+			x: 4.0d
+			y: -7.5d
+			description: ["Using these in your multiservo press will allow it to make certain things"]
+			dependencies: ["1A7B0C3819B9E7B7"]
+			id: "0971CEDAC906799B"
+			tasks: [
+				{
+					id: "27378190849442EC"
+					type: "item"
+					item: "thermal:press_coin_die"
+				}
+				{
+					id: "5EE252946D50D1C6"
+					type: "item"
+					item: "thermal:press_gear_die"
+				}
+				{
+					id: "0B90B4457F03A641"
+					type: "item"
+					item: "thermal:press_packing_2x2_die"
+				}
+				{
+					id: "08ABD2B7ED5DC403"
+					type: "item"
+					item: "thermal:press_packing_3x3_die"
+				}
+				{
+					id: "6650B9FF68DD3B5C"
+					type: "item"
+					item: "thermal:press_unpacking_die"
+				}
+			]
+			rewards: [{
+				id: "554BA69D36F1C259"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			description: ["This is mostly used to process wood items"]
+			dependencies: ["11CFAACF5CBC36A7"]
+			id: "2D83A6380B648CC5"
+			tasks: [{
+				id: "0454F943D144023E"
+				type: "item"
+				item: "thermal:machine_sawmill"
+			}]
+			rewards: [{
+				id: "7B761BD826B4F114"
+				type: "item"
+				item: "mekanism:sawdust"
+				count: 16
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			description: ["The fractionating still is used to process certain fluids into items and more fluids!"]
+			dependencies: ["11CFAACF5CBC36A7"]
+			id: "3A75FFE47A687299"
+			tasks: [{
+				id: "2B0335765EE1A0E8"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+			rewards: [{
+				id: "2FCFAB3F06822461"
+				type: "item"
+				item: "thermal:resin_bucket"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			description: ["The pyrolizer is used to process coal into coal coke and logs into charcoal"]
+			dependencies: ["11CFAACF5CBC36A7"]
+			id: "444DDC9469464E56"
+			tasks: [{
+				id: "0901CFDFA80F138D"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+			rewards: [{
+				id: "4773B45B34B0FA3F"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			description: ["The fluid encapsulator is used to insert fluids into certain items."]
+			dependencies: ["11CFAACF5CBC36A7"]
+			id: "7DBCC896DB08A1F1"
+			tasks: [{
+				id: "6DD1AD618981D53F"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+			rewards: [{
+				id: "13C25BD79D00BCAE"
+				type: "item"
+				item: "minecraft:glass_bottle"
+				count: 16
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			description: ["The redstone furnace is a faster furnace that works on rf"]
+			dependencies: ["11CFAACF5CBC36A7"]
+			id: "1C67CFEA181F57FF"
+			tasks: [{
+				id: "01A6BE01C97D4810"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			rewards: [{
+				id: "4505B4BEE511263C"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 16
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			description: ["The sequential fabricator is an automatic crafting table that works on rf"]
+			dependencies: ["11CFAACF5CBC36A7"]
+			id: "06E4D682E8E3E81A"
+			tasks: [{
+				id: "37DEF8B3B3D8E7DE"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+			rewards: [{
+				id: "14EDC6AC4FAF84D1"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			description: ["The induction smelter is a furnace which can fabricate new items from multiple input items"]
+			dependencies: ["11CFAACF5CBC36A7"]
+			id: "44E21E3304522B1A"
+			tasks: [{
+				id: "67B5F98644646894"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [{
+				id: "70EC369261625E2A"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 10
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			description: ["The phytogenic insulator uses phyto-gro to grow plants and auto-harvest them"]
+			dependencies: ["11CFAACF5CBC36A7"]
+			id: "23A87F5D5226FB15"
+			tasks: [{
+				id: "324A6D2D2371B445"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+			rewards: [{
+				id: "1BB2346E4E24117A"
+				type: "item"
+				item: "thermal:phytogro"
+				count: 16
+			}]
+		}
+		{
+			x: -4.5d
+			y: -6.0d
+			description: ["The centrifugal seperator is used to seperate different parts of an item, into other items or into items and fluids."]
+			dependencies: ["11CFAACF5CBC36A7"]
+			id: "15B8F597659B8554"
+			tasks: [{
+				id: "04240D7509EEBFBE"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+			rewards: [{
+				id: "133EFEF33A8A9686"
+				type: "item"
+				item: "minecraft:cornflower"
+				count: 16
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.0d
+			description: ["The magma crucible is used to smelt certain items."]
+			dependencies: ["11CFAACF5CBC36A7"]
+			id: "4A7C33738C65DB61"
+			tasks: [{
+				id: "479784ACE9DAE243"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			rewards: [{
+				id: "6E0DC0A0B2B51075"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 16
+			}]
+		}
+		{
+			title: "Chillin"
+			x: -5.0d
+			y: 4.5d
+			description: ["The blast chiller freezes certain items"]
+			dependencies: ["11CFAACF5CBC36A7"]
+			id: "19ABAC4C2FC69D69"
+			tasks: [{
+				id: "567E75E45415ED15"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+			rewards: [{
+				id: "20DAB6D340BA79F8"
+				type: "item"
+				item: "minecraft:snowball"
+				count: 16
+			}]
+		}
+		{
+			title: "casts"
+			x: -8.5d
+			y: 4.5d
+			description: ["Casts are used in certain recipes for the blast chiller. "]
+			dependencies: ["4A7C33738C65DB61"]
+			id: "09563DC067C87304"
+			tasks: [
+				{
+					id: "729724F9C74281E9"
+					type: "item"
+					item: "thermal:chiller_ball_cast"
+				}
+				{
+					id: "72670D3B2654CB9F"
+					type: "item"
+					item: "thermal:chiller_ingot_cast"
+				}
+			]
+			rewards: [{
+				id: "75FBDBBCF241B15E"
+				type: "item"
+				item: "tconstruct:molten_iron_bucket"
+			}]
+		}
+		{
+			title: "boom!"
+			x: -7.5d
+			y: 0.5d
+			description: ["various types of tnt and grenades"]
+			dependencies: ["11CFAACF5CBC36A7"]
+			id: "2E0DF78011A2C875"
+			tasks: [
+				{
+					id: "17C885521570F96D"
+					type: "item"
+					item: "thermal:phyto_tnt"
+				}
+				{
+					id: "11880DD2DD445709"
+					type: "item"
+					item: "thermal:fire_tnt"
+				}
+				{
+					id: "7A8E08C6E644880E"
+					type: "item"
+					item: "thermal:ice_tnt"
+				}
+				{
+					id: "419547B56188D0BF"
+					type: "item"
+					item: "thermal:lightning_tnt"
+				}
+				{
+					id: "524EA8C7FBF57436"
+					type: "item"
+					item: "thermal:ender_tnt"
+				}
+				{
+					id: "01D6ED060BBDDD23"
+					type: "item"
+					item: "thermal:glowstone_tnt"
+				}
+				{
+					id: "0266DEBC708443A0"
+					type: "item"
+					item: "thermal:slime_tnt"
+				}
+				{
+					id: "5ADF36115F13C359"
+					type: "item"
+					item: "thermal:redstone_tnt"
+				}
+				{
+					id: "2C7AEE73AF382F16"
+					type: "item"
+					item: "thermal:phyto_grenade"
+				}
+				{
+					id: "36D37E11E8BF8450"
+					type: "item"
+					item: "thermal:fire_grenade"
+				}
+				{
+					id: "485AFD576A4A1E11"
+					type: "item"
+					item: "thermal:ice_grenade"
+				}
+				{
+					id: "7C5F660935181BC9"
+					type: "item"
+					item: "thermal:lightning_grenade"
+				}
+				{
+					id: "176781EE013D50E6"
+					type: "item"
+					item: "thermal:ender_grenade"
+				}
+				{
+					id: "15A8A895872AE8D1"
+					type: "item"
+					item: "thermal:glowstone_grenade"
+				}
+				{
+					id: "5B5EE64A4DEBFA70"
+					type: "item"
+					item: "thermal:slime_grenade"
+				}
+				{
+					id: "0023680F42220541"
+					type: "item"
+					item: "thermal:redstone_grenade"
+				}
+			]
+			rewards: [{
+				id: "6A790E8D2D24E01D"
+				type: "item"
+				item: "appliedenergistics2:tiny_tnt"
+				count: 16
+			}]
+		}
+		{
+			title: "integral components"
+			x: -7.5d
+			y: -2.0d
+			description: ["These make your machines faster but they also make them consume rf faster."]
+			dependencies: ["11CFAACF5CBC36A7"]
+			id: "33AF3D09F3295991"
+			tasks: [
+				{
+					id: "6CB4F88C0E0DDD21"
+					type: "item"
+					item: "thermal:upgrade_augment_1"
+				}
+				{
+					id: "4A14693D42282F2C"
+					type: "item"
+					item: "thermal:upgrade_augment_2"
+				}
+				{
+					id: "53BA81CBD627E5B4"
+					type: "item"
+					item: "thermal:upgrade_augment_3"
+				}
+			]
+			rewards: [{
+				id: "30A63312DD4F8501"
+				type: "item"
+				item: "minecraft:iron_ingot"
+				count: 16
+			}]
+		}
+		{
+			title: "rf generation"
+			x: -7.5d
+			y: -4.5d
+			description: ["These dynamos have different ways of generating energy."]
+			dependencies: ["11CFAACF5CBC36A7"]
+			id: "081C1BD212517964"
+			tasks: [
+				{
+					id: "576412C2F566E440"
+					type: "item"
+					item: "thermal:dynamo_stirling"
+				}
+				{
+					id: "6516ECBD6D85138F"
+					type: "item"
+					item: "thermal:dynamo_compression"
+				}
+				{
+					id: "45C0C46BA9C1A6CF"
+					type: "item"
+					item: "thermal:dynamo_magmatic"
+				}
+				{
+					id: "45223D65E6D932AB"
+					type: "item"
+					item: "thermal:dynamo_numismatic"
+				}
+				{
+					id: "4785C381809CBA4B"
+					type: "item"
+					item: "thermal:dynamo_lapidary"
+				}
+				{
+					id: "703F1E18A1129F39"
+					type: "item"
+					item: "thermal:dynamo_disenchantment"
+				}
+				{
+					id: "6F8BDF79BCCD6D68"
+					type: "item"
+					item: "thermal:dynamo_gourmand"
+				}
+			]
+			rewards: [{
+				id: "6CC6A2EFB40DD110"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+			}]
+		}
+	]
+}
